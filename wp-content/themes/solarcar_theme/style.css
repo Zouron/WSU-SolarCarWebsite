@@ -95,3 +95,14 @@ nav{
   padding: 10px 0;
 }
 
+footer{
+  background-color: #9f2137;
+  text-align: center;
+}
+
+footer section{
+  margin: 0;
+  padding: 20px 0;
+  font-family: "Gotham Narrow";
+  font-weight: bold;
+}
