@@ -1,6 +1,6 @@
 		<footer>
       	<section>
-      		<img src="./img/WSU_white_left.png" alt="Western Sydney University" />
+      		<img src="<?php echo get_template_directory_uri() ?>/images/WSU_white_left.png" alt="Western Sydney University" />
 
       		<div id="social">
       			<a class="facebook_footer" href="https://www.facebook.com/westsydusolarcarproject" title="Facebook"><img src="<?php echo get_template_directory_uri() ?>/images/facebook.png" alt="Facebook" /> </a>
