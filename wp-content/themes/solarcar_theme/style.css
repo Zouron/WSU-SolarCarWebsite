@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Gotham Narrow1";
+  src: url(/fonts/gothamnarrowlight.otf),
+  url(/fonts/gothamnarrowlight.woff)  format('woff');
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Gotham Narrow2";
+  src: url(fonts/gothamnarrowbold.otf),
+  url(fonts/gothamnarrowbold.woff)  format('woff');
+  font-weight: bold;
+}
+
+/****** Header *************/
+
+#main-navbar a, #main-navbar{
+  background-color: #9f2137;
+  color: #FFFFFF;
+}
+#navbrand{
+  width: 250px;
+  padding-top: 0px;
+}
+
+
+#menushield{
+	height: 40px;
+  margin-top: 5px;
+  margin-left: 10px;
+	float: left;
+  display: inline-block;
+}
+nav{
+  background-color: #9f2137;
+    color: #FFFFFF;
+  font-family: "Gotham Narrow";
+    font-weight: bold;
+}
+/****** Body ***************/
+.heading
+{
+  font-family: "Gotham Narrow";
+  font-weight: bold;
+  color: #9f2137;
+}
+
+/****** Footer *************/
+#footer{
+  background-color: #9f2137;
+  color: #fff;
+}
+
+.social-icon-box{
+  display: block;
+  width: 349px;
+  height: 100px;
+}
+
+.center-items{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#sign-up-btn{
+  display: block; margin-left: auto; margin-right: auto;
+}
+
+#icon-row{
+  text-align: center;
+}
+
+#icon-row a {
+  width: auto;
+}
+
+
+
