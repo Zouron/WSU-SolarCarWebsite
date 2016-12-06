@@ -74,4 +74,24 @@ nav{
 }
 
 
+/********* From old site **********/
+#social{
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 40%;
+  min-width: 600px;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content:space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  -webkit-align-items: center;
+}
+#social *{
+  float: left;
+  padding: 10px 0;
+}
 
