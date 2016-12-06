@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "Gotham Narrow1";
+  font-family: "Gotham Narrow";
   src: url(/fonts/gothamnarrowlight.otf),
   url(/fonts/gothamnarrowlight.woff)  format('woff');
   font-weight: normal;
 }
 @font-face {
-  font-family: "Gotham Narrow2";
+  font-family: "Gotham Narrow";
   src: url(fonts/gothamnarrowbold.otf),
   url(fonts/gothamnarrowbold.woff)  format('woff');
   font-weight: bold;
@@ -105,4 +105,26 @@ footer section{
   padding: 20px 0;
   font-family: "Gotham Narrow";
   font-weight: bold;
+}
+
+#sitemap{
+  color: #FFFFFF;
+  font-size: 1.2rem;
+}
+
+#sitemap ul{
+  list-style: none;
+}
+
+#sitemap li{
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+#sitemap a{
+  color: #FFFFFF;
+}
+
+#sitemap a:hover{
+  text-decoration: underline;
 }
