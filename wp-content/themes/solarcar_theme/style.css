@@ -136,3 +136,21 @@ footer section{
 .asterisk {
   color:#e85c41; font-size:150%; font-weight:normal; position:relative; top:5px;
 }
+
+.submit{
+  border: 2px solid #9f2137;
+  font-family: "Gotham Narrow";
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 50px;
+  padding: 15px 30px;
+  color: #9f2137;
+  background-color: white;
+}
+
+.submit:hover{
+  color: #ff5c5e;
+  border-color: #ff5c5e;
+  background-color: white;
+}
