@@ -128,3 +128,11 @@ footer section{
 #sitemap a:hover{
   text-decoration: underline;
 }
+/****** Sign-up form **********/
+.indicates-required {
+  text-align:center; font-size:11px; margin-right:4%;
+}
+
+.asterisk {
+  color:#e85c41; font-size:150%; font-weight:normal; position:relative; top:5px;
+}
