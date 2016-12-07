@@ -1,5 +1,5 @@
 		<footer>
-		<div>
+		<div style="background-color: #ffffff;">
 					<!-- Begin MailChimp Signup Form -->
 					
 					<form action="//uws.us11.list-manage.com/subscribe/post?u=b6a07cf7fb5a609de48c04c60&amp;id=4c17b21603" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
