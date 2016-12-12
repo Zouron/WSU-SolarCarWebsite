@@ -1,18 +1,13 @@
 <?php get_header(); ?>
 <div id="main">
-	<div id="content" class="container">
-		<?php if (have_posts()) : 
-				while (have_posts()) : 
-					the_post(); ?>
-						<h1 class="heading"><?php the_title(); ?></h1>
-						<h4>Posted on <?php the_time('F jS, Y') ?></h4>
-						<p><?php the_content(__('(more...)')); ?></p>
-			<hr> 
-				<?php endwhile;
-			 else: ?>
-			<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
-		<?php endif; ?>
-	</div>
+	
+		
+
+						
+						<p>Index</p>
+						<?php echo do_shortcode("[post_grid id='7']"); ?>
+			
+	
 </div>
 	<div id="delimiter">
 	</div>
