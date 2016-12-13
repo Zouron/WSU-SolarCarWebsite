@@ -12,25 +12,41 @@ get_header(); ?>
 
 
 <?php
-	if ( is_front_page() && solarcar_theme_has_featured_posts() ) {
-		// Include the featured content template.
-		get_template_part( 'featured-content' );
-	}
+	
 	$counter=(int)0;
 ?>
-<div class="row">
-	<?php
-		if ( have_posts() ) :
-			while ( have_posts() ) :
-				the_post();
-				echo do_shortcode("[post_grid id='32']");
+<?php 
+// the query
+$wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1));
+	$counter=(int)0; ?>
 
-	 		endwhile;?>
-	 <?php else:?>
-			<p>Sorry, no posts matched your criteria.</p>
-	<?php endif; ?>
+<?php if ( $wpb_all_query->have_posts() ) : ?>
+<div class="container">
+<div class="row">
+
+	<!-- the loop -->
+	<?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
+		<div class="col-xs-4">
+			<?php the_title("<h5>","</h5>");
+			echo get_the_date();$counter++;?>
+		</div>
+		<?php if($counter>=3):?>
+			</div>
+			<div class="row">
+			<?php $counter=0;
+			endif; ?>
+		<!--<li><a href="<?php// the_permalink(); ?>"><?php// the_title(); ?></a></li>-->
+	<?php endwhile; ?>
+	<!-- end of the loop -->
 </div>
 
+	<?php wp_reset_postdata(); ?>
+
+<?php else : ?>
+	<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+<?php endif; ?>
+
+</div>
 <?php
 
-get_footer();
+get_footer();?>
