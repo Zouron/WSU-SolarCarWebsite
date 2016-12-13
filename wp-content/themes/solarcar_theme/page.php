@@ -16,19 +16,20 @@ get_header(); ?>
 		// Include the featured content template.
 		get_template_part( 'featured-content' );
 	}
-	//
+	$counter=(int)0;
 ?>
-<?php
-	if ( have_posts() ) :
-		while ( have_posts() ) :
-			the_post();
-			echo do_shortcode("[post_grid id='32']");
+<div class="row">
+	<?php
+		if ( have_posts() ) :
+			while ( have_posts() ) :
+				the_post();
+				echo do_shortcode("[post_grid id='32']");
 
- 		endwhile;?>
- <?php else:?>
-		<p>Sorry, no posts matched your criteria.</p>
-<?php endif; ?>
-
+	 		endwhile;?>
+	 <?php else:?>
+			<p>Sorry, no posts matched your criteria.</p>
+	<?php endif; ?>
+</div>
 
 <?php
 
