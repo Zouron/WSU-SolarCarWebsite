@@ -5,7 +5,7 @@
 
 						
 						<p>Index</p>
-						<?php echo do_shortcode("[post_grid id='7']"); ?>
+						<?php echo do_shortcode( '[the-post-grid id="20" title="Media"]' ); ?>
 			
 	
 </div>

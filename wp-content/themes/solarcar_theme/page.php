@@ -16,8 +16,7 @@ get_header(); ?>
 		// Include the featured content template.
 		get_template_part( 'featured-content' );
 	}
-	//Starting the count as zero
-	$count=(int)0;
+	//
 ?>
 <?php
 	if ( have_posts() ) :
