@@ -31,6 +31,7 @@ $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish
 			<div class="grid-post-date">
 				<?php echo get_the_date();?>
 			</div>
+			<?php echo the_excerpt();?>
 			<?php $counter++;?>
 		</div>
 		<?php if($counter>=3):?>
