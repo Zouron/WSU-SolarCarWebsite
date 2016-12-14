@@ -83,6 +83,11 @@ nav{
     text-align: left;
 }
 
+.grid-post-date {
+    font-size: 12px;
+    display: block;
+    padding: 10px;
+}
 
 /********* From old site **********/
 #social{
