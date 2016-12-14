@@ -26,7 +26,7 @@ $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish
 
 	<!-- the loop -->
 	<?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
-		<div class="col-xs-4">
+		<div class="col-sm-4">
 			<?php the_title("<h5>","</h5>");
 			echo get_the_date();$counter++;?>
 		</div>
