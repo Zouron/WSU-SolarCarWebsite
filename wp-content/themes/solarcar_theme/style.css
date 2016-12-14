@@ -73,7 +73,7 @@ nav{
   width: auto;
 }
 
-/********* From old site **********/
+/********* Grid styling **********/
 
 .grid-title {
     display: block;
@@ -87,6 +87,13 @@ nav{
     font-size: 12px;
     display: block;
     padding: 10px;
+}
+
+.grid-excerpt {
+    display: block;
+    font-size: 12px;
+    padding: 5px 10px;
+    text-align: left;
 }
 
 /********* From old site **********/
