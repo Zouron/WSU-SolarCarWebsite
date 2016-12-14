@@ -10,10 +10,7 @@
 		if ( have_posts() ) :
 			while ( have_posts() ) :
 				the_post();?>
-			<div class="col-xs-4">
-			
-				<?php the_title() ;?>
-			</div>
+			<?php echo do_shortcode("[post_grid id='7']"); ?>
 	 		<?php endwhile;?>
 	 <?php else:?>
 			<p>Sorry, no posts matched your criteria.</p>

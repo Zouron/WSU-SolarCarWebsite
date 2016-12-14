@@ -73,6 +73,16 @@ nav{
   width: auto;
 }
 
+/********* From old site **********/
+
+.grid-title {
+    display: block;
+    font-size: 21px;
+    line-height: normal;
+    padding: 5px 10px;
+    text-align: left;
+}
+
 
 /********* From old site **********/
 #social{
