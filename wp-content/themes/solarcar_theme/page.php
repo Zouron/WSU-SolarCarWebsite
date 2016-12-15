@@ -26,18 +26,17 @@ $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish
 
 	<!-- the loop -->
 	<?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
-		<div class="col-sm-4">
-			<?php the_post_thumbnail('medium');?>
+		<div class="col-sm-4 grid-boxes">
+		<a href="">	<div class="thumbnail" style="background-color: #EAEBEA;">
+				<?php the_post_thumbnail('thumbnail');?>
 
 
-			<?php the_title("<div class=\"grid-title\">","</div>");?>
-			<div class="grid-post-date">
-				<?php echo get_the_date();?>
-			</div>
-			<div class="grid-excerpt">
-				<?php echo the_excerpt();?>
-			</div>
-			<?php $counter++;?>
+				<?php the_title("<div class=\"grid-title\">","</div>");?>
+				<div class="grid-post-date">
+					<?php echo get_the_date();?>
+				</div>
+				<?php $counter++;?>
+			</div></a>
 		</div>
 		<?php if($counter>=3):?>
 			</div>

@@ -75,18 +75,31 @@ nav{
 
 /********* Grid styling **********/
 
+/*Currently not using this*/
+.grey-background{
+  background-color: #EAEBEA !important;
+}
+
+a:hover{
+  text-decoration: none !important;
+}
+
 .grid-title {
     display: block;
-    font-size: 21px;
+    font-size: 20px;
     line-height: normal;
     padding: 5px 10px;
     text-align: left;
+    color: #FF0033;
+    font-family: "Gotham Narrow";
+    font-weight: bold;
 }
 
 .grid-post-date {
-    font-size: 12px;
     display: block;
     padding: 10px;
+    color: #FF0033;
+
 }
 
 .grid-excerpt {
