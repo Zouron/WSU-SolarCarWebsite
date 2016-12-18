@@ -27,7 +27,7 @@ $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish
 	<!-- the loop -->
 	<?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
 		<div class="col-sm-4 grid-boxes">
-		<a href="">	<div class="thumbnail" style="background-color: #EAEBEA;">
+		<a href="<?php the_permalink();?>">	<div class="thumbnail" style="background-color: #EAEBEA;">
 				<?php the_post_thumbnail('thumbnail');?>
 
 

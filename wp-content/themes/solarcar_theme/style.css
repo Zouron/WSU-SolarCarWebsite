@@ -14,7 +14,7 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 @font-face {
-  font-family: "Gotham Narrow";
+  font-family: "Gotham Narrow1";
   src: url(/fonts/gothamnarrowlight.otf),
   url(/fonts/gothamnarrowlight.woff)  format('woff');
   font-weight: normal;
@@ -55,7 +55,6 @@ nav{
 .heading
 {
   font-family: "Gotham Narrow";
-  font-weight: bold;
   color: #9f2137;
 }
 
@@ -103,16 +102,16 @@ a:hover{
     display: block;
     font-size: 20px;
     line-height: normal;
-    padding: 5px 10px;
+    padding: 20px 10px;
     text-align: left;
-    color: #FF0033;
+    color: #990033;
     font-family: "Gotham Narrow";
     font-weight: bold;
 }
 
 .grid-post-date {
     display: block;
-    padding: 10px;
+    padding: 0px 10px;
     color: #FF0033;
 
 }
@@ -122,6 +121,15 @@ a:hover{
     font-size: 12px;
     padding: 5px 10px;
     text-align: left;
+}
+
+/********* Single pages *************/
+
+.gotham{
+  font-family: "Gotham Narrow1";
+}
+.gothambold{
+  font-family: "Gotham Narrow";
 }
 
 /********* From old site **********/
