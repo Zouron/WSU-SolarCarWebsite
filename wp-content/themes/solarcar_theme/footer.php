@@ -1,5 +1,5 @@
 		<footer>
-		<div style="background-color: #ffffff;">
+		<div style="background-color: #ffffff; display: none;">
 					<!-- Begin MailChimp Signup Form -->
 					
 					<form action="//uws.us11.list-manage.com/subscribe/post?u=b6a07cf7fb5a609de48c04c60&amp;id=4c17b21603" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -34,20 +34,17 @@
       			<ul>
       				<li><a href="#top">HOME</a></li> |
       				<li><a href="#team">TEAM</a></li> |
-                    <li><a href="#alumni">ALUMNI</a></li> |
       				<li><a href="#car">CAR</a></li> |
       				<li><a href="#partners">PARTNERS</a></li> |
        				<li><a href="#news">NEWS</a></li>|
+              <li><a href="#alumni">BLOG</a></li> |
       				<li><a href="#contact">CONTACT US</a></li> 
       			</ul>
       			&#9400; Western Sydney University Solar Car Project 2016 | All Rights Reserved
       		</div>
       	</section>
       </footer>
-		<script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
+		
 	
       <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
    </body>

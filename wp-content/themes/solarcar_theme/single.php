@@ -19,7 +19,7 @@ get_header(); ?>
 		<h1 class="heading"><?php the_title();?></h1>
 		<h3 class="gotham"><?php echo get_the_date();?></h3>
 		<h4 class="gotham">By <?php the_author();?></h4>
-		<?php the_content();?>
+		<?php echo the_content();?>
 		<?php
 		endwhile;
 		?>

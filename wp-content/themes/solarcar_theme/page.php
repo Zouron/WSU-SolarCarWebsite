@@ -27,8 +27,8 @@ $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish
 	<!-- the loop -->
 	<?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
 		<div class="col-sm-4 grid-boxes">
-		<a href="<?php the_permalink();?>">	<div class="thumbnail" style="background-color: #EAEBEA;">
-				<?php the_post_thumbnail('thumbnail');?>
+		<a href="<?php the_permalink();?>">	<div class="thumbnail" style="background-color: #EAEBEA; border-width: 0px;">
+				<?php the_post_thumbnail('medium');?>
 
 
 				<?php the_title("<div class=\"grid-title\">","</div>");?>
