@@ -8,7 +8,7 @@
  */
 
 get_header(); ?>
-
+	
 	<div id="primary" class="content-area">
 		<main id="main" class="container grey-background" role="main">
 
@@ -17,8 +17,7 @@ get_header(); ?>
 		while ( have_posts() ) :
 			the_post();?>
 		<h1 class="heading"><?php the_title();?></h1>
-		<h3 class="gotham"><?php echo get_the_date();?></h3>
-		<h4 class="gotham">By <?php the_author();?></h4>
+		<h3 class="blog-date"><?php echo get_the_date('jS M Y');?></h3>
 		<?php echo the_content();?>
 		<?php
 		endwhile;

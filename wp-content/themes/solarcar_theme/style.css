@@ -14,14 +14,17 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 @font-face {
-  font-family: "Gotham Narrow Light";
-  src: url(fonts/gothamnarrowlight.otf);
+  font-family: Gotham Narrow Bold;
+  src: url(fonts/GothamNarrow-Bold.otf),
+  url(fonts/gothamnarrowbold.woff) format('woff');
+  font-weight: normal;
   
 }
 @font-face {
-  font-family: "Gotham Narrow Bold";
-  src: url(fonts/gothamnarrowbold.otf);
-  
+  font-family: Gotham Narrow Light;
+  src: url(fonts/GothamNarrow-Light.otf),
+  url(fonts/gothamnarrowlight.woff) format('woff');
+  font-weight: normal;  
 }
 
 /****** Header *************/
@@ -46,13 +49,30 @@ Use it to make something cool, have fun, and share what you've learned with othe
 nav{
   background-color: #9f2137;
     color: #FFFFFF;
-  font-family: "Gotham Narrow Light";
+  font-family: "Gotham Narrow Bold";
 }
 /****** Body ***************/
 .heading
 {
   font-family: "Gotham Narrow Bold";
   color: #9f2137;
+  margin-bottom: 5px;
+}
+
+.blog-date{
+  font-family: "Gotham Narrow Light";
+  color: #FF5C5E;
+  margin-top: 5px;
+}
+
+.media-headings{
+  font-size: 35px;
+  width: 30%;
+  text-align: center;
+  border-bottom-style: solid;
+  border-bottom-color: #9f2137;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 /****** Footer *************/
@@ -94,40 +114,44 @@ nav{
   border-width: 0px;
 }
 
-a:hover{
+a:hover{ 
   text-decoration: none !important;
-}
+} 
 
 .grid-title {
     display: block;
     font-size: 20px;
     line-height: normal;
-    padding: 20px 10px 10px 10px;
+    padding: 10px 0px 5px 0px;
     text-align: left;
     color: #990033;
     font-family: "Gotham Narrow Bold";
 }
 
-a:hover .grid-title,
-a:hover .grid-post-date{
+a:hover .grid-title{
 	color: #ff5c5e;
+}
+a:hover .thumbnail img{
+  opacity: 0.5;
 }
 
 .grid-post-date {
     display: block;
     font-family: "Gotham Narrow Light";
-    padding: 0px 10px 10px 10px;
-    color: #990033;
+    padding: 0px 0px 0px 0px;
+    color: #FF5C5E;
 }
 .grid-post-date:hover{
-	color: 
+	color:;
 }
 
 .grid-excerpt {
     display: block;
-    font-size: 12px;
-    padding: 5px 10px;
+    font-size: 13px;
+    padding: 0px 10px 0px 0px;
     text-align: left;
+    color: #000000;
+    font-family: "Gotham Narrow Light";
 }
 
 /********* Single pages *************/
@@ -168,8 +192,7 @@ footer{
 footer section{
   margin: 0;
   padding: 20px 0;
-  font-family: "Gotham Narrow Light";
-  font-weight: bold;
+  font-family: "Gotham Narrow Bold";
 }
 
 #sitemap{
@@ -205,7 +228,6 @@ footer section{
 .submit{
   border: 2px solid #9f2137;
   font-family: "Gotham Narrow Bold";
-  font-weight: bold;
   font-size: 2rem;
   text-align: center;
   border-radius: 50px;
