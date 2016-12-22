@@ -30,11 +30,16 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /****** Header *************/
 
 #main-navbar a, #main-navbar{
-  background-color: #9f2137; 
+  background-color: #9f2137;
   color: #FFFFFF;
   height: 70px;
   border: 0px;
-  vertical-align: bottom;
+}
+
+ 
+#main-navbar a{
+  line-height: 40px;
+  
 }
  
 #main-navbar a:hover{
@@ -54,14 +59,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 #menushield{
 	height: 40px;
-	margin-top: 5px;
-	margin-left: 10px;
    float: left; 
-	margin: auto;
 }
 nav{
-  background-color: #9f2137;
-    color: #FFFFFF;
   font-family: "Gotham Narrow Bold";
 }
 /****** Body ***************/
