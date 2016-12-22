@@ -32,7 +32,7 @@
 				<!--Links are grouped together-->
 	      		<div class="collapse navbar-collapse">
 	      			<ul class="nav navbar-nav navbar-right">
-					    <li class="header-links"><a class="header-links" href="#team">TEAM</a></li>					    
+					    <li><a href="#team">TEAM</a></li>					    
 					    <li><a href="#car">CAR</a></li>
 					    <li><a href="#partners">PARTNERS</a></li>
 					    <li><a href="#news">NEWS</a></li>
