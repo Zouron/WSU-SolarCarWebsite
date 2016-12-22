@@ -16,7 +16,7 @@
 			<div class="container">
 			<!--Logo and han=mburger icon grouped together-->
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" id="navbar-toggle" data-target=".navbar-collapse">
 				        <span class="sr-only">Toggle navigation</span>
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
