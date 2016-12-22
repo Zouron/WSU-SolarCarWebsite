@@ -33,7 +33,7 @@ $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish
 
 				<?php the_title("<div class=\"grid-title\">","</div>");?>
 				<div class="grid-post-date">
-					<?php echo get_the_date('M jS Y');?>
+					<?php echo get_the_date('jS F Y');?>
 				</div>
 				<div class="grid-excerpt"><?php echo get_the_excerpt();?></div>
 				<?php $counter++;?>

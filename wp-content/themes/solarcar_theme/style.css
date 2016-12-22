@@ -30,22 +30,27 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /****** Header *************/
 
 #main-navbar a, #main-navbar{
-  background-color: #9f2137;
+  background-color: #9f2137; 
   color: #FFFFFF;
+  height: 70px;
+  border: 0px;
+  vertical-align: bottom;
 }
 #navbrand{
   width: 250px;
   padding-top: 0px;
 }
 
-
 #menushield{
 	height: 40px;
-  margin-top: 5px;
-  margin-left: 10px;
-	float: left;
-  display: inline-block;
+	margin-top: 5px;
+	margin-left: 10px;
+   float: left; 
+	margin: auto;
 }
+.header-links:hover{
+  color: #ffffff;
+} 
 nav{
   background-color: #9f2137;
     color: #FFFFFF;
@@ -63,13 +68,15 @@ nav{
   font-family: "Gotham Narrow Light";
   color: #FF5C5E;
   margin-top: 5px;
-}
+} 
 
-.media-headings{
-  font-size: 35px;
-  width: 30%;
+.media-headings{ 
+  font-size: 4em;
+  width: 90%;
+  max-width: 750px;
   text-align: center;
   border-bottom-style: solid;
+  border-bottom-width: 6px;
   border-bottom-color: #9f2137;
   margin: auto;
   margin-bottom: 20px;

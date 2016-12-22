@@ -10,14 +10,14 @@
 get_header(); ?>
 	
 	<div id="primary" class="content-area">
-		<main id="main" class="container grey-background" role="main">
+		<main id="main" class="container" role="main">
 
 		<?php
 		// Start the loop.
 		while ( have_posts() ) :
 			the_post();?>
-		<h1 class="heading"><?php the_title();?></h1>
-		<h3 class="blog-date"><?php echo get_the_date('jS M Y');?></h3>
+		<h2 class="heading"><?php the_title();?></h2>
+		<h3 class="blog-date"><?php echo get_the_date('jS F Y');?></h3>
 		<?php echo the_content();?>
 		<?php
 		endwhile;

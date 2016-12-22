@@ -1,13 +1,13 @@
 <html>
 <head>
 	<title>Solar Car Theme 2017</title>
-	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 </head>
 <body>
 
@@ -32,7 +32,7 @@
 				<!--Links are grouped together-->
 	      		<div class="collapse navbar-collapse">
 	      			<ul class="nav navbar-nav navbar-right">
-					    <li><a href="#team">TEAM</a></li>					    
+					    <li class="header-links"><a class="header-links" href="#team">TEAM</a></li>					    
 					    <li><a href="#car">CAR</a></li>
 					    <li><a href="#partners">PARTNERS</a></li>
 					    <li><a href="#news">NEWS</a></li>
