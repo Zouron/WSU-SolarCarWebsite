@@ -39,7 +39,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
  
 #main-navbar a{
-  line-height: 40px;
+  line-height: 40px; 
   
 }
  
@@ -53,11 +53,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 #navbar-toggle{
   border-color: #FF5C5E;
-  margin-top: 16px;
+  margin-top: 16px; 
 }
 #navbrand{
   width: 250px;
   padding-top: 0px; 
+}
+#collapse{
+  border:none;
 }
 a #menushield{
   margin-top: 15px;
@@ -149,10 +152,10 @@ a:hover{
     font-family: "Gotham Narrow Bold";
 }
 
-a:hover .grid-title{
+a:hover .grid-title{ 
 	color: #ff5c5e;
 }
-a:hover .thumbnail img{
+a:hover img{ 
   opacity: 0.5;
 }
 

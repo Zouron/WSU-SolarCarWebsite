@@ -12,7 +12,7 @@
 <body>
 
 	<div id="header">
-		<nav class="navbar navbar-default" id="main-navbar">
+		<nav class="navbar navbar-default navbar-static-top" id="main-navbar">
 			<div class="container">
 			<!--Logo and han=mburger icon grouped together-->
 				<div class="navbar-header">
@@ -30,7 +30,7 @@
 		      		</div>
 				</div>
 				<!--Links are grouped together-->
-	      		<div class="collapse navbar-collapse">
+	      		<div class="collapse navbar-collapse" id="collapse">
 	      			<ul class="nav navbar-nav navbar-right">
 					    <li><a href="#team">TEAM</a></li>					    
 					    <li><a href="#car">CAR</a></li>
