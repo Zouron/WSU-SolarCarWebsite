@@ -32,12 +32,12 @@
       		</div>
       		<div id="sitemap">
       			<ul>
-      				<li><a href="#top">HOME</a></li> |
-      				<li><a href="#team">TEAM</a></li> |
-      				<li><a href="#car">CAR</a></li> |
-      				<li><a href="#partners">PARTNERS</a></li> |
+      				<li><a href="#top">HOME</a></li>|
+      				<li><a href="#team">TEAM</a></li>|
+      				<li><a href="#car">CAR</a></li>|
+      				<li><a href="#partners">PARTNERS</a></li>|
        				<li><a href="#news">NEWS</a></li>|
-              <li><a href="#alumni">BLOG</a></li> |
+              <li><a href="#alumni">BLOG</a></li>|
       				<li><a href="#contact">CONTACT US</a></li> 
       			</ul>
       			&#9400; Western Sydney University Solar Car Project 2016 | All Rights Reserved

@@ -16,6 +16,7 @@ get_header(); ?>
 		// Start the loop.
 		while ( have_posts() ) :
 			the_post();?>
+		<?php the_post_thumbnail('full', array('class' => "img-responsive"));?>
 		<h2 class="heading"><?php the_title();?></h2>
 		<h3 class="blog-date"><?php echo get_the_date('jS F Y');?></h3>
 		<?php echo the_content();?>
