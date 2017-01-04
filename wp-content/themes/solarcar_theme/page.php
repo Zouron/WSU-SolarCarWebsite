@@ -28,10 +28,11 @@ $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish
 			<a href="<?php the_permalink();?>">
 				
 					<div class="col-sm-6">
-						<?php the_post_thumbnail('full', array('class' => "img-responsive"));?>
+						<?php the_post_thumbnail('full', array('class' => "img-responsive list-image"));?>
 					</div>
 					<div class="col-sm-6">
 						<?php the_title("<div class=\"grid-title\">","</div>");?>
+						</a>
 						<div class="grid-post-date">
 							<?php echo get_the_date('jS F Y');?>
 						</div>
@@ -40,7 +41,7 @@ $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish
 						</div>
 					</div>
 				
-			</a>
+			
 		</div>
 	<?php endwhile; ?>
 	<!-- end of the loop -->

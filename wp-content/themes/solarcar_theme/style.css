@@ -154,9 +154,9 @@ a:hover{
 }
 
 a:hover .grid-title{ 
-	color: #ff5c5e;
+	color: #ff5c5e; 
 }
-a:hover img{ 
+a:hover .list-image{ 
   opacity: 0.5;
 }
 
