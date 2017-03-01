@@ -32,7 +32,7 @@
               </div>
             </div>
             <div class="portrait">
-              <img src="./img/team/ann.jpg" alt="Ann Xiao" />
+              <img src=".<?php echo get_template_directory_uri() ?>/images/team/saamiul.png" alt="Saamiul Bashar" />
             </div>
           </div>
           <div class="person">
