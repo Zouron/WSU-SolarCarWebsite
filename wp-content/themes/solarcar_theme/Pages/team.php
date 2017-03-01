@@ -60,7 +60,7 @@
               </div>
             </div>
             <div class="portrait">
-              <img src=".<?php echo get_template_directory_uri() ?>/images/team/taylor.png" alt="Daniel Nemec" />
+              <img src=".<?php echo get_template_directory_uri() ?>/images/team/daniel.png" alt="Daniel Nemec" />
             </div>
           </div>
           <div class="person">
@@ -88,39 +88,7 @@
               </div>
             </div>
             <div class="portrait">
-              <img src=".<?php echo get_template_directory_uri() ?>/images/team/zachary.png" alt="Georgi Georgieff" />
-            </div>
-          </div>
-          <div class="person">
-            <div class="info">
-              <div class="p_name">Rez Pulido</div>
-              <div class="p_title">Mechanical</div>
-              <div class="p_degree">Mechanical Engineering</div>
-              <div class="p_bio"></div>
-              <div class="p_social">
-                  <a href="http://linkedin">
-                  	<img src="<?php echo get_template_directory_uri() ?>/images/linkedin.png" alt="LinkedIn" />
-				  </a>
-              </div>
-            </div>
-            <div class="portrait">
-              <img src="./img/team/rez.jpg" alt="Rez Pulido" />
-            </div>
-          </div>
-          <div class="person">
-            <div class="info">
-              <div class="p_name">Daniel Eddington</div>
-              <div class="p_title">Electrical</div>
-              <div class="p_degree">Electrical Engineering</div>
-              <div class="p_bio"></div>
-              <div class="p_social">
-                  <a href="http://linkedin">
-                  	<img src="<?php echo get_template_directory_uri() ?>/images/linkedin.png" alt="LinkedIn" />
-				  </a>
-              </div>
-            </div>
-            <div class="portrait">
-              <img src="./img/team/d1.jpg" alt="Daniel Eddington" />
+              <img src=".<?php echo get_template_directory_uri() ?>/images/team/georgi.png" alt="Georgi Georgieff" />
             </div>
           </div>
         </div>
