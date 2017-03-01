@@ -51,18 +51,16 @@
           </div>
           <div class="person">
             <div class="info">
-              <div class="p_name">Cameron Weston</div>
+              <div class="p_name">Daniel Nemec</div>
               <div class="p_title">Mechanical Lead</div>
-              <div class="p_degree">Mechanical Engineering</div>
-              <div class="p_bio"></div>
               <div class="p_social">
-                  <a href="http://linkedin">
+                  <a class="p_linkedin" href="https://www.linkedin.com/in/daniel-nemec- 922239123/">
                   	<img src="<?php echo get_template_directory_uri() ?>/images/linkedin.png" alt="LinkedIn" />
 				  </a>
               </div>
             </div>
             <div class="portrait">
-              <img src="./img/team/cam.jpg" alt="Cameron Weston" />
+              <img src="..<?php echo get_template_directory_uri() ?>/images/team/taylor.png" alt="Daniel Nemec" />
             </div>
           </div>
           <div class="person">
