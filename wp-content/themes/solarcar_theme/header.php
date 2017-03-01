@@ -23,7 +23,7 @@
 				        <span class="icon-bar"></span>
 	    			</button>
 	    			<div class="navbar-brand" id="navbrand">
-			    		<a class="" href="./index.html#top">
+			    		<a class="" href="<?php echo home_url('/','https'); ?>">
 				      	<img id="menushield" src="<?php echo get_template_directory_uri() ; ?>/images/white_shield.png" alt="WSU Shield" />
 				      	<h2 class="">Solar Car</h2>
 				      	</a>
@@ -32,12 +32,11 @@
 				<!--Links are grouped together-->
 	      		<div class="collapse navbar-collapse" id="collapse">
 	      			<ul class="nav navbar-nav navbar-right">
-					    <li><a href="#team">TEAM</a></li>					    
-					    <li><a href="#car">CAR</a></li>
-					    <li><a href="#partners">PARTNERS</a></li>
-					    <li><a href="#news">NEWS</a></li>
-					    <li><a href="#alumni">BLOG</a></li>
-					    <li><a href="#contact">CONTACT US</a></li>
+					    <li><a href="">TEAM</a></li>			    
+					    <li><a href="">CAR</a></li>
+					    <li><a href="">PARTNERS</a></li>
+					    <li><a href="">NEWS</a></li>
+					    <li><a href="">CONTACT US</a></li>
 		        	</ul>
 	      		</div>
 		        
