@@ -60,39 +60,35 @@
               </div>
             </div>
             <div class="portrait">
-              <img src="..<?php echo get_template_directory_uri() ?>/images/team/taylor.png" alt="Daniel Nemec" />
+              <img src=".<?php echo get_template_directory_uri() ?>/images/team/taylor.png" alt="Daniel Nemec" />
             </div>
           </div>
           <div class="person">
             <div class="info">
-              <div class="p_name">Kieran Luken</div>
-              <div class="p_title">IT &amp; Telemetry Lead</div>
-              <div class="p_degree">Information &amp; Communications Technology</div>
-              <div class="p_bio"></div>
+              <div class="p_name">Zachary Mitchell</div>
+              <div class="p_title">Electrical Lead</div>
               <div class="p_social">
-                  <a href="http://linkedin">
+                  <a class="p_linkedin" href="https://www.linkedin.com/in/zacmitchell/">
                   	<img src="<?php echo get_template_directory_uri() ?>/images/linkedin.png" alt="LinkedIn" />
 				  </a>
               </div>
             </div>
             <div class="portrait">
-              <img src="./img/team/kieran.jpg" alt="Kieran Luken" />
+              <img src=".<?php echo get_template_directory_uri() ?>/images/team/zachary.png" alt="Zachary Mitchell" />
             </div>
           </div>
           <div class="person">
             <div class="info">
-              <div class="p_name">Rohan Munjal</div>
-              <div class="p_title">Mechanical</div>
-              <div class="p_degree">Mechanical Engineering</div>
-              <div class="p_bio"></div>
+              <div class="p_name">Georgi Georgieff</div>
+              <div class="p_title">IT and Telemetry Lead</div>
               <div class="p_social">
-                  <a href="http://linkedin">
+                  <a class="p_linkedin" href="https://www.linkedin.com/in/georgi-georgieff- 15606b103/">
                   	<img src="<?php echo get_template_directory_uri() ?>/images/linkedin.png" alt="LinkedIn" />
 				  </a>
               </div>
             </div>
             <div class="portrait">
-              <img src="./img/team/rohan.jpg" alt="Rohan Munjal" />
+              <img src=".<?php echo get_template_directory_uri() ?>/images/team/zachary.png" alt="Georgi Georgieff" />
             </div>
           </div>
           <div class="person">
