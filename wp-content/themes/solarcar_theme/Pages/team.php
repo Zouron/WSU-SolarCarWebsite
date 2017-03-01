@@ -37,18 +37,16 @@
           </div>
           <div class="person">
             <div class="info">
-              <div class="p_name">Michael Jay</div>
-              <div class="p_title">Electrical Lead</div>
-              <div class="p_degree">Electrical Engineering</div>
-              <div class="p_bio"></div>
+              <div class="p_name">Taylor Pop</div>
+              <div class="p_title">Marketing Lead</div>
               <div class="p_social">
-                  <a href="http://linkedin">
+                  <a class="p_linkedin" href="https://www.linkedin.com/in/taylormpope/">
                   	<img src="<?php echo get_template_directory_uri() ?>/images/linkedin.png" alt="LinkedIn" />
 				  </a>
               </div>
             </div>
             <div class="portrait">
-              <img src="./img/team/michael.jpg" alt="Michael Jay" />
+              <img src=".<?php echo get_template_directory_uri() ?>/images/team/taylor.png" alt="Taylor Pope" />
             </div>
           </div>
           <div class="person">
