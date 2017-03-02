@@ -12,7 +12,7 @@ Text Domain: twentyfifteen
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
-*/
+*/  
 @font-face {
   font-family: 'Gotham Narrow Bold';
   src: url(fonts/GothamNarrow-Bold.otf),
@@ -271,6 +271,10 @@ footer section{
   color: #ff5c5e;
   border-color: #ff5c5e;
 }
+
+.center{
+  text-align: center;
+}
 /****** Sign-up form **********/  
 .indicates-required { 
   text-align:center; font-size:11px; margin-right:4%;
@@ -377,8 +381,6 @@ footer section{
   margin: 20px auto;
   line-height: 1.2em;
   color: #000000;
-
-
 }
 
 
@@ -400,7 +402,7 @@ footer section{
   transition:all 0.3s ease;
   max-width: 300px;
 }
-.info{ 
+.info{
   position: absolute;
   top: 0px;
   width: 100%;
@@ -412,7 +414,7 @@ footer section{
   text-align: center;
 }
 
-.info:hover{
+.info:hover{  
   opacity: 1;
   background-color: rgba(170,33,55,0.8);
   box-shadow:inset 0px -80px 100px 70px rgba(0,0,0,0.15);
@@ -423,3 +425,47 @@ footer section{
   -webkit-filter: blur(6px);
   opacity: 1;
 }
+
+/************* Sponsors **************/
+.sponsor_class{
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+.sponsor_class h1{
+  font-size: 1.6em;
+  color: #FFFFFF;
+  line-height: 2.5em;
+  text-align: center;
+}
+
+#platinum{
+  background-color: #e4e3e2;
+}
+
+#gold{
+  background-color: gold;
+}
+
+#silver{
+  background-color: silver;
+}
+
+#bronze{
+  background-color: #cd8031;
+}
+
+#friends{
+  background-color: #9f2137;
+}
+.logos{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logos img{
+  margin: 20px 20px;
+  max-height: 200px;
+  }
