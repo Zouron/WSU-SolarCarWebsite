@@ -1,3 +1,5 @@
+<?php get_header(); ?>
+
 <section>
       	<a name="team"></a>
         <img class="wide_img" src="./img/team.jpg">
@@ -13,12 +15,12 @@
         			<div class="p_title">Team Manager</div>
         			<div class="p_social">
         				<a class="p_linkedin" href="https://www.linkedin.com/in/sam-larrondo- 014794125/">
-                  		  <img src=".<?php echo get_template_directory_uri() ?>/images/linkedin.png" alt="LinkedIn" />
+                  		  <img src="<?php echo get_template_directory_uri() ?>/images/linkedIn.png" alt="LinkedIn" />
                         </a>
 					</div>
         		</div>
             <div class="portrait">
-              <img src=".<?php echo get_template_directory_uri() ?>/images/team/samuel.png" alt="Samuel Larrondo" />
+              <img src="<?php echo get_template_directory_uri() ?>/images/team/samuel.png" alt="Samuel Larrondo" />
             </div>
         	</div>
           <div class="person">
@@ -32,7 +34,7 @@
               </div>
             </div>
             <div class="portrait">
-              <img src=".<?php echo get_template_directory_uri() ?>/images/team/saamiul.png" alt="Saamiul Bashar" />
+              <img src="<?php echo get_template_directory_uri() ?>/images/team/saamiul.png" alt="Saamiul Bashar" />
             </div>
           </div>
           <div class="person">
@@ -46,7 +48,7 @@
               </div>
             </div>
             <div class="portrait">
-              <img src=".<?php echo get_template_directory_uri() ?>/images/team/taylor.png" alt="Taylor Pope" />
+              <img src="<?php echo get_template_directory_uri() ?>/images/team/taylor.png" alt="Taylor Pope" />
             </div>
           </div>
           <div class="person">
@@ -60,7 +62,7 @@
               </div>
             </div>
             <div class="portrait">
-              <img src=".<?php echo get_template_directory_uri() ?>/images/team/daniel.png" alt="Daniel Nemec" />
+              <img src="<?php echo get_template_directory_uri() ?>/images/team/daniel.png" alt="Daniel Nemec" />
             </div>
           </div>
           <div class="person">
@@ -74,7 +76,7 @@
               </div>
             </div>
             <div class="portrait">
-              <img src=".<?php echo get_template_directory_uri() ?>/images/team/zachary.png" alt="Zachary Mitchell" />
+              <img src="<?php echo get_template_directory_uri() ?>/images/team/zachary.png" alt="Zachary Mitchell" />
             </div>
           </div>
           <div class="person">
@@ -88,8 +90,9 @@
               </div>
             </div>
             <div class="portrait">
-              <img src=".<?php echo get_template_directory_uri() ?>/images/team/georgi.png" alt="Georgi Georgieff" />
+              <img src="<?php echo get_template_directory_uri() ?>/images/team/georgi.png" alt="Georgi Georgieff" />
             </div>
           </div>
         </div>
       </section>
+<?php get_footer(); ?>
