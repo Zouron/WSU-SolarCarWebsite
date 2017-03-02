@@ -14,17 +14,22 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 @font-face {
-  font-family: Gotham Narrow Bold;
+  font-family: 'Gotham Narrow Bold';
   src: url(fonts/GothamNarrow-Bold.otf),
   url(fonts/gothamnarrowbold.woff) format('woff');
   font-weight: normal;
   
 }
 @font-face {
-  font-family: Gotham Narrow Light;
+  font-family: 'Gotham Narrow Light';
   src: url(fonts/GothamNarrow-Light.otf),
   url(fonts/gothamnarrowlight.woff) format('woff');
   font-weight: normal;  
+}
+
+@font-face{
+  font-family: 'Gotham Book';
+  src: url(fonts/gothambook.ttf) format("truetype");
 }
 
 /****** Header *************/
@@ -92,6 +97,7 @@ nav{
 .media-headings{ 
   font-size: 4em;
   width: 90%;
+  color: #000000;
   max-width: 750px;
   text-align: center;
   border-bottom-style: solid;
@@ -304,7 +310,7 @@ footer section{
   border-right: none;
 }
 
-#mc_embed_signup form {
+#mc_embed_signup form { 
   display:block; position:relative; text-align:left; padding:10px 0 10px 3%
 }
 
@@ -314,11 +320,11 @@ footer section{
 
 .p_name{
   font-family: "Gotham Book";
-  font-weight: bold;
+  font-weight: bold; 
   color: #FFFFFF;
   font-size: 2rem;
   letter-spacing: 1px;
-  padding-top: 150px;
+  padding-top: 150px; 
 }
 .p_title{
   font-family: "Chronicle Roman";
@@ -342,7 +348,7 @@ footer section{
   background-color: #9f2137;
 }
 .p_linkedin:hover{
-  background-color: #2a7ab5;
+  background-color: #2a7ab5;  
 }
 .p_social img{
   height: 40px;
@@ -355,24 +361,50 @@ footer section{
   justify-content:space-around;
   max-width: 1200px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; 
 }
+.wide_img{
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.header-text{
+  font-family: "Gotham Book";
+  max-width: 700px;
+  font-size: 1.6em;
+  text-align: center;
+  width: 90%;
+  margin: 20px auto;
+  line-height: 1.2em;
+  color: #000000;
+
+
+}
+
+
 .person{
   position: relative;
   height: 400px;
   overflow: hidden;
-  min-width: 300px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .person img{
-  opacity: 1;
-}
+  opacity: 1;  
+}      
 .person img{
   opacity: 1;
 } 
-.info{
+.portrait, .person img{
+  transition:all 0.3s ease;
+  max-width: 300px;
+}
+.info{ 
   position: absolute;
   top: 0px;
   width: 100%;
+  max-width: 300px;
   height: 100%;
   opacity: 0;
   transition:all 0.3s ease;
