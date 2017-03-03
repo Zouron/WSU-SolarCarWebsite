@@ -1,24 +1,24 @@
 <?php get_header(); ?>
-<section>
+<section class="container">
       <a name="car"></a>
-      	<h1>Meet Our Cars</h1>
-      	<h2>Driving into a sustainable future.</h2>
-      	<hr /> <br/>
+      	<div class="media-headings gothambold">Meet Our Cars</div>
+      	<!--<h2 class="">Driving into a sustainable future.</h2>-->
+      	
       <!--need to fix the position of the solace image transitioning with scrolling-->
       	<figure class="cd-image-container">
-      		<img src="./img/unlimited.jpg" alt="Unlimited. (2015)">
+      		<img src="<?php echo get_template_directory_uri() ?>/images/unlimited.jpg" alt="Unlimited. (2015)">
       		<span class="cd-image-label" data-type="original">UNLIMITED. (2015)</span>
 
       		<div class="cd-resize-img"> <!-- the resizable image on top -->
-      			<img src="./img/solace.jpg" alt="Solace (2013)">
+      			<img src="<?php echo get_template_directory_uri() ?>/images/solace.jpg" alt="Solace (2013)">
       			<span class="cd-image-label" data-type="modified">Solace (2013)</span>
       		</div>
       		<span class="cd-handle"></span>
       	</figure>
-      	<p>
+      	<p class="header-text">
       	  Our racing cars showcase cutting-edge sustainable engineering and demonstrate the incredible potential of electric vehicle technologies. By designing a car to run on solar power alone, we are driving the changes in vehicle efficiency and new technologies for a low-carbon future.
       	</p>
-      	<p>
+      	<p class="header-text">
       	  Constructed from a carbon-nomex composite, the monocoque chassis of our solar car seats custom designed suspension components. We make use of these industry leading materials and techniques to create a race vehicle that is not only light, but strong as well.
       	</p>
       	<div id="facts_table">
