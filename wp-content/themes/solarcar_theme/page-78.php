@@ -14,7 +14,7 @@
             			<div class="p_name">Samuel Larrondo</div>
             			<div class="p_title">Team Manager</div>
             			<div class="p_social">
-            				<a class="p_linkedin" href="https://www.linkedin.com/in/sam-larrondo- 014794125/">
+            				<a class="p_linkedin" href="https://www.linkedin.com/in/sam-larrondo-014794125/">
                       		  <img src="<?php echo get_template_directory_uri() ?>/images/linkedIn.png" alt="LinkedIn" />
                             </a>
     					</div>
@@ -62,7 +62,7 @@
                 <div class="p_name">Daniel Nemec</div>
                 <div class="p_title">Mechanical Lead</div>
                 <div class="p_social">
-                    <a class="p_linkedin" href="https://www.linkedin.com/in/daniel-nemec- 922239123/">
+                    <a class="p_linkedin" href="https://www.linkedin.com/in/daniel-nemec-922239123/">
                     	<img src="<?php echo get_template_directory_uri() ?>/images/linkedin.png" alt="LinkedIn" /></a>
                 </div>
               </div>
@@ -92,7 +92,7 @@
                 <div class="p_name">Georgi Georgieff</div>
                 <div class="p_title">IT and Telemetry Lead</div>
                 <div class="p_social">
-                    <a class="p_linkedin" href="https://www.linkedin.com/in/georgi-georgieff- 15606b103/">
+                    <a class="p_linkedin" href="https://www.linkedin.com/in/georgi-georgieff-15606b103/">
                     	<img src="<?php echo get_template_directory_uri() ?>/images/linkedin.png" alt="LinkedIn" /></a>
                 </div>
               </div>
