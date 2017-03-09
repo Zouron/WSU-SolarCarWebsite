@@ -46,5 +46,6 @@
 		
 	
       <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+      <?php wp_footer(); ?>
    </body>
 </html>

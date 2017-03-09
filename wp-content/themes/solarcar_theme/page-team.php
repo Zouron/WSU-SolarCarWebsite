@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<img class="wide_img" src="<?php echo get_template_directory_uri() ?>/images/team/team.jpg">
 <section class="container">
       	<a name="team"></a>
         <div class="media-headings gothambold">Meet the Team</div>
@@ -103,5 +102,11 @@
           </div>
           </div>
         </div>
+        <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
+the_content();
+endwhile; else: ?>
+<p>Sorry, no posts matched your criteria.</p>
+<?php endif; ?>
+
       </section>
 <?php get_footer(); ?>

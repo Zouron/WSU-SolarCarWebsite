@@ -3,7 +3,7 @@
 			<a name="contact"></a>
 			<div class="media-headings gothambold">Contact Us</div>
 			<div class="center">
-<iframe width="600" height="450" frameborder="0" style="border:0"
+<iframe width="90%" height="450" frameborder="10" style="border:0"
 src="https://www.google.com/maps/embed/v1/place?q=Solar%20Car%20Project&key=AIzaSyBZA-g-PEqPItW7h3Y6R6ZhbjQNDfu7Y8o" allowfullscreen></iframe></div>
 			<div id = "contact_container">
 				<div id = "contact">
