@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url(fonts/GothamNarrow-Bold.otf),
+  url(fonts/gothamnarrowbold.woff) format('woff');
+  font-weight: normal;
+} 
+
+/*above the dashboard*/
+.hoth-tophtml, .hoth-bothtml {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	font-size: 12px;
+	clear: both;
+}
+
+.hoth-dashboard {
+	height: 120px;
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+	background-color: #c4c3c2;
+}
+
+.hoth-dash {
+	width: 21%;
+	min-width: 32px;
+	max-width: 80px;
+	height: 48px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 1%;
+	margin-right: auto;
+	position: relative;
+	color: #000;   
+	text-align: center;
+}
+
+.hoth-tripdash {
+	width: 21%;
+	min-width: 40px;
+	max-width: 80px;
+	height: 48px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 1%;
+	margin-right: auto;
+	position: relative;
+	color: #000;
+	text-align: center;
+}
+
+.hoth-digit {
+	font-family: "Gotham Bold";
+	font-size: 3em;
+	font-weight: 300;
+	line-height: 1.2em;
+	display: inline-block;
+	vertical-align: top;
+	width: auto;
+	height: .8em;
+	color: #990033;
+	position: relative;
+	margin-top:30px;
+	}
+
+.hoth-dash_title {
+	font-family: "Gotham Bold";
+	display: block;
+	position: absolute;
+	width: 100%;
+	color: #990033;
+	text-align: center;
+	font-size: 14px;
+	margin: 0px;
+	top: 75;
+	white-space: nowrap;
+	overflow: hidden;
+}
