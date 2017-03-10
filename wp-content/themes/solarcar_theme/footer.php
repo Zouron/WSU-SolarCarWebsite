@@ -9,8 +9,6 @@
                                     <p>To keep up to date, subscribe to our newsletter:</p>
                               <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
                               <input type="email" placeholder="Enter Email Address *" name="EMAIL" class="subEmail" id="mce-EMAIL"><br/>
-                                    <input type="text" placeholder="Enter First Name" name="FNAME" class="subFName" id="mce-FNAME"><br/>
-                                    <input type="text" placeholder="Enter Last Name" name="LNAME" class="subLName" id="mce-LNAME"><br/><br/>
                                     <div id="mce-responses" class="clear">
                                           <div class="response" id="mce-error-response" style="display:none"></div>
                                           <div class="response" id="mce-success-response" style="display:none"></div>
