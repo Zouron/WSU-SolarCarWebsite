@@ -42,7 +42,7 @@
           <div class="col-md-4 col-sm-6">
             <div class="person">
               <div class="info">
-                <div class="p_name">Taylor Pop</div>
+                <div class="p_name">Taylor Pope</div>
                 <div class="p_title">Marketing Lead</div>
                 <div class="p_social">
                     <a class="p_linkedin" href="https://www.linkedin.com/in/taylormpope/">

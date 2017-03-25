@@ -260,21 +260,21 @@ header h1 {
 }
 
 #vname, #vmail, #subEmail, .subFName, .subLName, .subEmail{
-	padding: 0.5em 1em;
+	/*padding: 0.5em 1em;
 	border-radius: 3px;
 	width:90%;
-	max-width: 750px;
+	max-width: 750px; 
 	margin-bottom: 20px;
 	box-shadow: none;
 	border-bottom: solid #808080 1px;
 	border-top: none;
 	border-left: none;
-	border-right: none;
+	border-right: none;*/
 }
 #vname, #vmail, #subEmail:focus{
 	outline-width: 0;
 }
-
+  
 #contact textarea{
 	padding: 0.5em 1em;
 	border-radius: 3px;
